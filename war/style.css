@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+
+root { 
+    display: block;
+}
+
+.middle
+{
+    width:1024px;
+}
+.right
+{
+    width:50%;
+}
+.left
+{
+    width:50%;
+}
+.tbl
+{
+    padding: 0px;
+    border-spacing: 0px;
+}
+a
+{
+    text-decoration: none;
+    color:blue;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+
+input::-webkit-input-placeholder {
+color: white !important;
+font-weight : 500;
+}
